@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*raleway, sans-serif*/
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+
+.centraliza-container{
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 5px rgba(15, 15, 15, 0.42);
+}
+
+
+.logo-center{
+    margin-left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: right;
+    display: ruby;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+div{
+    display: ruby-text;
+    width: 90%;
+    background-color: #fff;
+    padding: 6% 6% 0 6%;
+}
+
+
+
+/*são-referencias-nomes-carros*/
+.centro{ 
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    justify-items: unset;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+
+/* CABEÇALHO-logotipo*/
+header{
+    text-align: center;
+}
+
+
+
+header ul{
+    margin-top: 1.4em;
+    justify-content: space-around;
+}
+
+
+/*meche nos itens da lista*/
+header li{
+    list-style-type: none;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 2rem;/*tamanho-dela*/
+}
+
+
+
+
+/*meche o que estar dentro da <Li>*/
+header a{
+    text-decoration: none;
+    color:#e42012a9; 
+    padding: .8em;    
+}
+
+
+main{
+    margin-top: 6rem;
+}
+
+
+article{
+    width: 95%
+}
+
+
+article img{
+    width: 58%;
+    float: right;
+    margin: 0 0 2.5em 2em;/*cima, direita, baixo, esquerda*/
+}
+
+
+p{
+    font-size: 1.5rem;
+    line-height: 160%;
+    margin-bottom: 1rem;
+}
+
+
+
+h2{
+    font-size: 4.5rem;
+    margin-bottom: .72em;
+    font-family: "Racing Sans One" sans-serif;
+    color: #d42c20;
+}
+
+
+
+/*quebra de elementos-parágrafo/secção*/
+hr{
+    width: 90%;
+    margin: 4em auto;
+    border: 1.5px solid rgba(243, 81, 69, 0.445);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, .17);
+}
+
+
+.esquerda{
+    float:left;
+    margin-left: 0;
+    margin-right: 2rem;
+}
+
+
+
+.text-direita{
+    text-align: auto;
+    float: auto;
+}
+
+
+
+.direita {
+    float: right;
+    margin-right: 4rem;
+    margin-top: auto;
+    width: 50%;
+}
+
+
+.text-esquerda{
+    text-align: auto;
+    float: auto;
+    margin-left: auto;
+    margin-right: 2.4em;
+}
